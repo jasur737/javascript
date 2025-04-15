@@ -1,10 +1,10 @@
-let user = {
-    name:prompt ("what is your name?"),
-    age: 20,
-    isStudent: false,
-};
-user.country ="USA";
-console.log(user);
+// let user = {
+//     name:prompt ("what is your name?"),
+//     age: 20,
+//     isStudent: false,
+// };
+// user.country ="USA";
+// console.log(user);
 
 // let stringValue = "!@#$%^&*()"
 // console.log("String:", stringValue);
@@ -26,3 +26,8 @@ console.log(user);
 
 // let symbolValue = Symbol("hcybubu")
 // console.log("Symbol", symbolValue);
+
+const fructis = ["apple", "banana", "pineapple", "orange"];
+console.log(fructis);
+fructis.unshift("kiwi")
+fructis.pop()
