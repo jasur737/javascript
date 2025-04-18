@@ -27,7 +27,20 @@
 // let symbolValue = Symbol("hcybubu")
 // console.log("Symbol", symbolValue);
 
-const fructis = ["apple", "banana", "pineapple", "orange"];
-console.log(fructis);
-fructis.unshift("kiwi")
-fructis.pop()
+// const fructis = ["apple", "banana", "pineapple", "orange"];
+// fructis.unshift("kiwi")
+// fructis.pop()
+// console.log(fructis);
+// let l = (999,9)
+// console.log(l)
+
+// const nums = [1, 2, 3, 3, 4, 5, 6, 7, 8, 9];
+// const nums2 = [10, 11, 12, 13, 14, 15, 16, 17];
+// const allnums = nums.concat(nums2);
+// console.log(allnums)
+// const nums3 = [1, 2, 3, 3, 4, 5, 6, 7, 8, 9];
+// console.log(nums3.join("!"))
+const nums4 = [1, 2, 3, 3, 4, 5, 6, 7, 8, 9];
+nums4.splice(4, 0, "hii")
+console.log(nums4)
+
