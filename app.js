@@ -40,7 +40,18 @@
 // console.log(allnums)
 // const nums3 = [1, 2, 3, 3, 4, 5, 6, 7, 8, 9];
 // console.log(nums3.join("!"))
-const nums4 = [1, 2, 3, 3, 4, 5, 6, 7, 8, 9];
-nums4.splice(4, 0, "hii")
-console.log(nums4)
+// const nums4 = [1, 2, 3, 3, 4, 5, 6, 7, 8, 9];
+// nums4.splice(4, 0, "hii")
+// console.log(nums4)
+''
+let fruits = ['apple', 'banana', 'kiwi', 'apple'];
+let index = fruits.indexOf("kiwi", 1);
+console.log(index);
 
+let notFound = fruits.indexOf("grape");
+console.log(notFound);
+
+function salomBer (ism) {
+    console.log("salom, " + ism + "!");
+}
+salomBer("Ali")
