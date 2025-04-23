@@ -44,14 +44,50 @@
 // nums4.splice(4, 0, "hii")
 // console.log(nums4)
 ''
-let fruits = ['apple', 'banana', 'kiwi', 'apple'];
-let index = fruits.indexOf("kiwi", 1);
-console.log(index);
+// let fruits = ['apple', 'banana', 'kiwi', 'apple'];
+// let index = fruits.indexOf("kiwi", 1);
+// console.log(index);
 
-let notFound = fruits.indexOf("grape");
-console.log(notFound);
+// let notFound = fruits.indexOf("grape");
+// console.log(notFound);
 
-function salomBer (ism) {
-    console.log("salom, " + ism + "!");
+// function salomBer (ism) {
+//     console.log("salom, " + ism + "!");
+// }
+// salomBer("Ali")
+// function myfunction (a, b) {
+//     console.log(a + b);
+// };
+// myfunction(12)
+// function f (a, b) {
+//     return a+b; 
+   
+// }
+// console.log(f(12,8))
+
+function colculator () {
+    let num1 = prompt("birinchi raqamni kiriting")
+    let nums2 = prompt("ikkinchi raqamni kiriting")
+    let aperator = prompt("arifmetik amalni kiriting")
+
+    num1 = Number(num1)
+    nums2 = Number(nums2)
+    let answer;
+
+    if (aperator == "+") {
+   return answer = num1 + nums2;
+    }
+    else if (aperator == "-") {
+        return answer = num1 - nums2;
+    }
+    else if (aperator == "/") {
+        return answer = num1 / nums2;
+    }
+    else if (aperator == "*") {
+        return answer = num1 * nums2;
+    }
+    else {
+        alert ("xatolik");
+    }
 }
-salomBer("Ali")
+alert(colculator());
