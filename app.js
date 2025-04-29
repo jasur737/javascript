@@ -93,25 +93,59 @@
 // alert(colculator());
 
 
-const nums = [2, 4, 6, 8]
-console.log(nums.every((num) => num % 2 === 0))
+// const nums = [2, 4, 6, 8]
+// console.log(nums.every((num) => num % 2 === 0))
 
-const users = ["tom", "john", "george"]
-console.log(users.find ((user) => user === "tom"))
+// const users = ["tom", "john", "george"]
+// console.log(users.find ((user) => user === "tom"))
 
-const ages = [10, 14, 18, 24];
-console.log(ages.some((age) => age == 18))
+// const ages = [10, 14, 18, 24];
+// console.log(ages.some((age) => age == 18))
 
-const numbers = [1, 2, 3, 4, 5, 6];
-console.log(numbers.reduce((a, b) => a+b))
+// const numbers = [1, 2, 3, 4, 5, 6];
+// console.log(numbers.reduce((a, b) => a+b))
 
-const fructis = ["apple", "banana", "cherry"];
-fructis.forEach((fructis, index) => {
-    console.log(index + 1 + ". " +fructis);
-});
+// const fructis = ["apple", "banana", "cherry"];
+// fructis.forEach((fructis, index) => {
+//     console.log(index + 1 + ". " +fructis);
+// });
 
-const numbers1= [1, 2, 4, 6, 8 ];
-console.log(numbers1.map((number) => number * number));
+// const numbers1= [1, 2, 4, 6, 8 ];
+// console.log(numbers1.map((number) => number * number));
 
-const scores = [20, 30, 60, 80,];
-console.log(scores.filter((score) => score >= 50));
+// const scores = [20, 30, 60, 80,];
+// console.log(scores.filter((score) => score >= 50));
+
+
+const text1 =  "                 Hello World          ";
+console.log(text1.trim);
+
+const text = "Hello World";
+console.log(text.split(" "));
+
+const text2 = "Hello World";
+console.log(text2.at(3));
+
+const text3 = "252525";
+console.log(text3.padEnd(15, 737));
+
+const text4 = "Hello World";
+console.log(text4.replace("World", "planet"));
+
+const text5 = "Hello World";
+console.log(text5.repeat());
+
+const text6 = "Hello World";
+console.log(text6.substring(5));
+
+const text7 = "Hello World";
+console.log(text7.concat(" !"));
+
+const text8 = "Hello World";
+console.log(text8.toUpperCase());
+
+const text9 = "Hello World";
+console.log(text9.slice(0, 5))
+
+const text10 = "Hello World";
+console.log(text10.length())
