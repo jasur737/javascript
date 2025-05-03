@@ -43,7 +43,7 @@
 // const nums4 = [1, 2, 3, 3, 4, 5, 6, 7, 8, 9];
 // nums4.splice(4, 0, "hii")
 // console.log(nums4)
-''
+"";
 // let fruits = ['apple', 'banana', 'kiwi', 'apple'];
 // let index = fruits.indexOf("kiwi", 1);
 // console.log(index);
@@ -60,8 +60,8 @@
 // };
 // myfunction(12)
 // function f (a, b) {
-//     return a+b; 
-   
+//     return a+b;
+
 // }
 // console.log(f(12,8))
 
@@ -92,7 +92,6 @@
 // }
 // alert(colculator());
 
-
 // const nums = [2, 4, 6, 8]
 // console.log(nums.every((num) => num % 2 === 0))
 
@@ -116,36 +115,68 @@
 // const scores = [20, 30, 60, 80,];
 // console.log(scores.filter((score) => score >= 50));
 
+// const text1 =  "                 Hello World          ";
+// console.log(text1.trim);
 
-const text1 =  "                 Hello World          ";
-console.log(text1.trim);
+// const text = "Hello World";
+// console.log(text.split(" "));
 
-const text = "Hello World";
-console.log(text.split(" "));
+// const text2 = "Hello World";
+// console.log(text2.at(3));
 
-const text2 = "Hello World";
-console.log(text2.at(3));
+// const text3 = "252525";
+// console.log(text3.padEnd(15, 737));
 
-const text3 = "252525";
-console.log(text3.padEnd(15, 737));
+// const text4 = "Hello World";
+// console.log(text4.replace("World", "planet"));
 
-const text4 = "Hello World";
-console.log(text4.replace("World", "planet"));
+// const text5 = "Hello World";
+// console.log(text5.repeat());
 
-const text5 = "Hello World";
-console.log(text5.repeat());
+// const text6 = "Hello World";
+// console.log(text6.substring(5));
 
-const text6 = "Hello World";
-console.log(text6.substring(5));
+// const text7 = "Hello World";
+// console.log(text7.concat(" !"));
 
-const text7 = "Hello World";
-console.log(text7.concat(" !"));
+// const text8 = "Hello World";
+// console.log(text8.toUpperCase());
 
-const text8 = "Hello World";
-console.log(text8.toUpperCase());
+// const text9 = "Hello World";
+// console.log(text9.slice(0, 5))
 
-const text9 = "Hello World";
-console.log(text9.slice(0, 5))
+// const text10 = "Hello World";
+// console.log(text10.length())
 
-const text10 = "Hello World";
-console.log(text10.length())
+//  switch case!
+// ternary operator!
+
+let baho = 4;
+console.log(
+  baho == 5
+    ? "A'LO"
+    : baho == 4
+    ? "YAXSHI"
+    : baho == 3
+    ? "QONIQARLI"
+    : baho == 2
+    ? "QONIQARSIZ"
+    : "baho yoq"
+);
+let fruits = "apple";
+ switch ("apple") {
+   case "orange":
+   console.log("This is orange");
+   break;
+   case "banana":
+    console.log("This is banana");
+    break;
+    case "kiwi":
+      console.log("This is kiwi");
+      break;
+   case "cherry":
+    console.log("This is cherry");
+    break;
+    default :
+    console.log("This is fruits")
+ }
