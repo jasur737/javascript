@@ -151,32 +151,49 @@
 //  switch case!
 // ternary operator!
 
-let baho = 4;
-console.log(
-  baho == 5
-    ? "A'LO"
-    : baho == 4
-    ? "YAXSHI"
-    : baho == 3
-    ? "QONIQARLI"
-    : baho == 2
-    ? "QONIQARSIZ"
-    : "baho yoq"
-);
-let fruits = "apple";
- switch ("apple") {
-   case "orange":
-   console.log("This is orange");
-   break;
-   case "banana":
-    console.log("This is banana");
-    break;
-    case "kiwi":
-      console.log("This is kiwi");
-      break;
-   case "cherry":
-    console.log("This is cherry");
-    break;
-    default :
-    console.log("This is fruits")
- }
+// let baho = 4;
+// console.log(
+//   baho == 5
+//     ? "A'LO"
+//     : baho == 4
+//     ? "YAXSHI"
+//     : baho == 3
+//     ? "QONIQARLI"
+//     : baho == 2
+//     ? "QONIQARSIZ"
+//     : "baho yoq"
+// );
+// let fruits = "apple";
+//  switch ("apple") {
+//    case "orange":
+//    console.log("This is orange");
+//    break;
+//    case "banana":
+//     console.log("This is banana");                                                   
+//     break;
+//     case "kiwi":
+//       console.log("This is kiwi");
+//       break;
+//    case "cherry":
+//     console.log("This is cherry");                                                                                                                                                                                                                           
+//     break;                                                                   
+//     default :
+//     console.log("This is fruits");                        
+//  }
+
+// const elementId = document.getElementById("box");
+// const text = document.getElementsByClassName("text");
+// const div = document.getElementsByTagName("div");
+// const universal = document.querySelector("#w");
+// const all = document.querySelectorAll("#text");
+
+// universal.textContent = "helllo World"
+// console.log(universal.textContent);
+
+ const button = document.getElementById("W");
+ const h1 = document.getElementById("L")
+ 
+ button.addEventListener("click", () => {
+    h1.remove()
+ })
+ 
