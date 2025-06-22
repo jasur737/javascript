@@ -190,10 +190,16 @@
 // universal.textContent = "helllo World"
 // console.log(universal.textContent);
 
- const button = document.getElementById("W");
- const h1 = document.getElementById("L")
+//  const button = document.getElementById("W");
+//  const h1 = document.getElementById("L")
  
- button.addEventListener("click", () => {
-    h1.remove()
- })
+//  button.addEventListener("click", () => {
+//     h1.remove()
+//  })
  
+const button = document.getElementById("btn")
+const body = document.getElementById("body")
+
+button.addEventListener("click", () => {
+   body.classList.toggle("black-body")
+})
